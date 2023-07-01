@@ -1,2 +1,2 @@
-# jaimeb.github.io
+# JaimeBarentine.github.io
 Jaime Barentine's Portfolio
