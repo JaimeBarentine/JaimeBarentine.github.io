@@ -1,2 +1,2 @@
-# your_username.github.io
+# gitmejame.github.io
 Jaime Barentine's Portfolio
