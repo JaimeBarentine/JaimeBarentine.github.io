@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
+<html lang="en">
+<head>
+<title>Jaime Barentine Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,6 +10,8 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
+<base href="https://github.com/JaimeBarentine/jaimebarentine.github.io/">
+</head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
@@ -17,7 +20,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <img src="/w3images/avatar_g2.jpg" alt="avatar" style="width:45%;" class="w3-round"><br><br>
     <h4><b>PORTFOLIO</b></h4>
     <p class="w3-text-grey">Template by W3.CSS</p>
   </div>
@@ -44,7 +47,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <!-- Header -->
   <header id="portfolio">
-    <a href="#"><img src="jaime-avatar.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <a href="#" class="image avatar"><img src="images/thumbs/jaime-avatar.jpg" alt="Jaime profile" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
     <h1><b>Jaime Barentine's Portfolio</b></h1>
@@ -53,7 +56,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <button class="w3-button w3-black">ALL</button>
       <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Games</button>
       <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Art</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-music w3-margin-right"></i>Music</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-tv w3-margin-right"></i>Code</button>
     </div>
     </div>
   </header>
@@ -61,7 +64,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="flightsim_2020.jpg" alt="Flight Sim" style="width:100%" class="w3-hover-opacity">
+      <a href="somepage.html" class="image fit thumb"><img src="images/thumbs/flightsim_2020.jpg" alt="Flight Sim" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <p><b>Microsoft Flight Simulator</b></p>
         <p>My first official job in the video game industry, I worked QA on this project for 3 years. I trained people, specialized in the world generation and automation, and documented all my knowledge before I left.
@@ -69,14 +72,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="New-World-Amazon.jpg" alt="New World" style="width:100%" class="w3-hover-opacity">
+      <img src="images/thumbs/New-World-Amazon.jpg" alt="New World" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>New World</b></p>
         <p>I've been working QA on this project for a year. Being on the engine team, I tested more complex underlying systems, became familiar with repository systems like P4, and worked with devs and engineers closely.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="hexate_destroyer_crop.jpg" alt="Hexate Destroyer" style="width:100%" class="w3-hover-opacity">
+      <img src="images/thumbs/hexate_destroyer_crop.jpg" alt="Hexate Destroyer" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Hexate Destroyer</b></p>
         <p>A fun little 80s-style arcade space shooter inspired by vector-based screen graphics. It's the first game I ever released on an official platform, it was made for Android on the Google Play Store. A version for PC has been adapted to play right here in your browser window.</p>
@@ -87,21 +90,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="fellow_portfolio.jpg" alt="Hello Fellow Fellows" style="width:100%" class="w3-hover-opacity">
+      <img src="images/thumbs/fellow_portfolio.jpg" alt="Hello Fellow Fellows" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Hello Fellow Fellows</b></p>
         <p>A pet project game that I started during college, and continued working on throughout. Now that I've graduated, I've got plans to finish this game and release it on consoles. You can play a demo of the proof of concept right here in your browser window.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="juggler-portfolio.jpg" alt="GoForTheJuggler" style="width:100%" class="w3-hover-opacity">
+      <img src="images/thumbs/juggler-portfolio.jpg" alt="GoForTheJuggler" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Go For the Juggler</b></p>
         <p>This was made for a game jam. The theme was juggling, so I made a VR juggling game with a twist where you throw, catch, bounce, and juggle a variety of fun objects with an NPC buddy. I'll either finish and release it, or use it as the base to build off of for a new VR game.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="DVVD-portfolio.jpg" alt="DVVD" style="width:100%" class="w3-hover-opacity">
+      <img src="images/thumbs/DVVD-portfolio.jpg" alt="DVVD" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>DVVD</b></p>
         <p>Coming soon! After working QA on two different online multiplayer games, I decided to work together with my brother to create our own. Gained practice using Github to share project updates and branch changes for working with another person.</p>
@@ -121,96 +124,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
   </div>
 
-  <!-- Images of Me -->
-  <div class="w3-row-padding w3-padding-16" id="about">
-    <div class="w3-col m6">
-      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
-    </div>
-    <div class="w3-col m6">
-      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
-    </div>
-  </div>
 
   <div class="w3-container w3-padding-large" style="margin-bottom:32px">
     <h4><b>About Me</b></h4>
-    <p>I have a passion for video games, </p>
+    <p>I spent my early childhood in a musical family, where I learned a few instruments, and started drawing, When I was 12, I was drawing my own comic books, and discovered a website for kids made by MIT called Scratch. I originally used it to animate my comics, but inevitably moved on to coding my own games.
+      Ever since then, I've been obsessed with video game design and developement. I made prototype after prototype, having family and friends playtest while I tweaked their design to get the reactions I wanted from people. I'm passionate about creating fun experiences that put smiles on peoples' faces, 
+    experiences that immerse people and expose them to new ideas, and uniquely new types of experiences that were previously never dreamt of.</p>
     <hr>
     
-    <h4>Technical Skills</h4>
+    <h4>Language Profiency</h4>
     <!-- Progress bars / Skills -->
-    <p>Photography</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
-    </div>
-    <p>Web Design</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
-    </div>
-    <p>Photoshop</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
-    </div>
-    <p>
-      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-        <i class="fa fa-download w3-margin-right"></i>Download Resume
-      </button>
-    </p>
+    <p>- C#</p>
+    <p>- C</p>
+    <p>- Python</p>
+    <p>- Java</p>
+    <p>- BASIC</p>
+    
     <hr>
     
-    <h4>How much I charge</h4>
-    <!-- Pricing Tables -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-third w3-margin-bottom">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">1GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
+    
       
-      <div class="w3-third w3-margin-bottom">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
       
-      <div class="w3-third">
-        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">Unlimited Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    </div>
+      
+      
   </div>
   
   <!-- Contact Section -->
@@ -219,15 +155,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p>email@email.com</p>
+        <p>jaimebarentine@gmail.com</p>
       </div>
       <div class="w3-third w3-teal">
         <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-        <p>Chicago, US</p>
+        <p>Arizona, US</p>
       </div>
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-        <p>512312311</p>
+        <p>4803342783</p>
       </div>
     </div>
     <hr class="w3-opacity">
@@ -257,32 +193,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </div>
   
-    <div class="w3-third">
-      <h3>BLOG POSTS</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Lorem</span><br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Ipsum</span><br>
-          <span>Praes tinci sed</span>
-        </li> 
-      </ul>
-    </div>
 
-    <div class="w3-third">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
-        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
-      </p>
-    </div>
+    
 
   </div>
   </footer>
