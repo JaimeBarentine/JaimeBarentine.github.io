@@ -55,4 +55,7 @@ iframe {
         margin: 0 auto;
     }
   
+    .ytvideo {
+        display: inline;
+    }
 }
