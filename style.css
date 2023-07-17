@@ -48,7 +48,7 @@ iframe {
         display: inline-block;
         margin: 0 auto;
     }
-    #gamebanner .youtube-video {
+    #gamebanner iframe[title="YouTube video player"] {
         display: block;
     }
 }
