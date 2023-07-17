@@ -4,7 +4,7 @@ body,h1,h2,h3,h4,h5,h6 {
 /* #gamebanner img value: width="720" height="405" 
 juggler:  width="560" height="315"
 */
-iframe {
+#gamedemo {
     display: inline;
     margin: 0 auto;
     width: 964px;
@@ -47,15 +47,11 @@ iframe {
 }
 
 @media (max-width: 768px) {
-    iframe {
+    #gamedemo {
         display: none;
     }
     #mobilebanner {
         display: inline-block;
         margin: 0 auto;
-    }
-  
-    .ytvideo {
-        display: inline;
     }
 }
