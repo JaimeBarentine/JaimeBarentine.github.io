@@ -49,6 +49,8 @@ iframe {
         margin: 0 auto;
     }
     #gamebanner iframe[title="YouTube video player"] {
+        aspect-ratio: 16 / 9;
         display: block;
+        width: 90%;
     }
 }
