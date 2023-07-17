@@ -1,12 +1,22 @@
 body,h1,h2,h3,h4,h5,h6 {
     font-family: "Raleway", sans-serif;
 }
-
+/* #gamebanner img value: width="720" height="405" 
+juggler:  width="560" height="315"
+*/
 iframe {
     display: block;
     margin: 0 auto;
     width: 964px;
     height: 650px;
+}
+
+#gamebanner {
+    text-align: center;
+}
+#gamebanner img {
+    width: 90%;
+    height: auto;
 }
 
 .imagebox {
@@ -16,11 +26,26 @@ iframe {
     width: 25%;
 }
 
+#mobilebanner {
+    display: none;
+}
+
 #gameinfo {
     text-align: center;
 }
 
 #gameinfo p {
-    margin: 0 60px;
+    margin: 6px 60px;
     text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    iframe {
+        display: none;
+    }
+    #mobilebanner {
+        display: inline-block;
+        margin: 0 auto;
+    }
 }
