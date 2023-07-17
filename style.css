@@ -39,6 +39,11 @@ iframe {
     text-align: center;
 }
 
+.ytvideo {
+    aspect-ratio: 16 / 9;
+    background: #000;
+    width: 95%;
+}
 
 @media (max-width: 768px) {
     iframe {
@@ -48,9 +53,5 @@ iframe {
         display: inline-block;
         margin: 0 auto;
     }
-    #gamebanner iframe[title="YouTube video player"] {
-        aspect-ratio: 16 / 9;
-        display: block;
-        width: 90%;
-    }
+  
 }
