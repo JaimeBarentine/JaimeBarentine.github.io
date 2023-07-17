@@ -1,0 +1,26 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 964px;
+    height: 650px;
+}
+
+.imagebox {
+    text-align: center;
+}
+.imagebox img {
+    width: 25%;
+}
+
+#gameinfo {
+    text-align: center;
+}
+
+#gameinfo p {
+    margin: 0 60px;
+    text-align: center;
+}
